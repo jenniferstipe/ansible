@@ -1,2 +1,9 @@
-# ansible
-ansible playbooks and examples
+# setup
+```
+hosts file:  /etc/ansible/hosts
+config file:  /etc/ansible/ansible.cfg
+```
+# adhoc commands
+```
+ansible -i /etc/ansible/hosts all -m ping
+```

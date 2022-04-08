@@ -14,3 +14,7 @@ To add a host to /etc/ansible/hosts with a specific ssh key and user:
 
 https://docs.ansible.com/ansible/latest/user_guide/connection_details.html
 ```
+# run playbook and pass variables
+```
+ansible-playbook release.yml --extra-vars "version=1.23.45 other_variable=foo"
+```
